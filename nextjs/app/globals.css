@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+button, h1, h2, section, a,
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto !important;
+}
+.section1{
+  /* background: #000 !important; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 1440px; */
+  background-image: url(../images/bg-image1.png);
+}
+.row{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto !important;
+}
+section{
+  width: 1280px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+h1{
+  color: black;
+}
+.section3{
+  background-image: url(../images/Bg-image2.png);
+}
+
+.div2{
+  box-shadow: 4px 4px 4px 4px #9c9c9c;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  width: 90%;
+}
+
+.div1{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.text-column{
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.text-column div{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button.btn1:hover{
+  background-color: rgb(207, 241, 138) !important;
+  color: black !important;
+}
+button.btn2:hover{
+  background-color:rgb(15, 35, 65);
+}
+/* a:focus{
+  outline: 2px dotted !important;
+  box-shadow: 0 0 0 2px #fff !important;
+  outline-offset: -4px
+} */
